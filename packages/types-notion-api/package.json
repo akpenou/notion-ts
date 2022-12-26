@@ -1,6 +1,6 @@
 {
   "name": "types-notion-api",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "typescript types to the official notion api",
   "main": "src/index.ts",
   "scripts": {
