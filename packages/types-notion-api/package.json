@@ -1,0 +1,16 @@
+{
+  "name": "types-notion-api",
+  "version": "1.0.0",
+  "description": "typescript types to the official notion api",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "notion types",
+    "notion api",
+    "notion ts"
+  ],
+  "author": "shidoverse",
+  "license": "MIT"
+}
