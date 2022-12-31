@@ -34,6 +34,7 @@ export interface Block {
   created_by: CreatedBy;
   last_edited_by: LastEditedBy;
   has_children: boolean;
+  children?: BlockList;
   archived: boolean;
   type: string;
 }
