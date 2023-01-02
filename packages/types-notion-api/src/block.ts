@@ -16,7 +16,7 @@ import {
 } from "./database";
 import { BlockDivider } from "./divider";
 import { BlockEquation, Equation } from "./equation";
-import { BlockHeading } from "./headers";
+import { BlockHeading, BlockParagraph } from "./headers";
 import {
   BlockBulletedListItem,
   BlockNumberedListItem,
@@ -65,6 +65,7 @@ export type BlockList = (
   | BlockCode
   | BlockDivider
   | BlockEquation
+  | BlockParagraph
   | BlockHeading
   | BlockBulletedListItem
   | BlockNumberedListItem
