@@ -21,6 +21,7 @@ import {
   BlockBulletedListItem,
   BlockNumberedListItem,
   BlockToDoListItem,
+  BlockToggleListItem,
 } from "./list";
 import { BlockQuote } from "./quote";
 import { Annotations, Text, Parent, CreatedBy, LastEditedBy } from "./commons";
@@ -70,6 +71,7 @@ export type BlockList = (
   | BlockBulletedListItem
   | BlockNumberedListItem
   | BlockToDoListItem
+  | BlockToggleListItem
   | BlockEmbed
   | BlockImage
   | BlockVideo
